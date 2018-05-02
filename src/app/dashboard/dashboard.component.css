@@ -33,7 +33,13 @@ h4 {
   .col-1-4 {
     flex-grow: 1;
     flex-basis: 25%;
+  }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .col-1-4 {
+    flex-grow: 1;
+    flex-basis: 50%;
   }
 }
 
